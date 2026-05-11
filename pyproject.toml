@@ -1,0 +1,15 @@
+[project]
+name = "python-redis-asyncio-benchmarks"
+version = "0.1.0"
+description = "Benchmarking suite to compare performance of different async python redis clients"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "coredis>=6.6.1",
+    "redis[hiredis]>=7.4.0",
+    "valkey-glide>=2.3.1",
+    "rich>=14.0.0",
+    "plotext>=5.3.2",
+    "plotly>=6.1.2",
+    "anyio>=4.13.0",
+]
